@@ -129,7 +129,7 @@ body {
 }
 
 .why-choose {
-  padding: 10rem 24rem;
+  padding: 10rem 10rem;
   background-color: #1a1a1a;
   display: flex;
   flex-wrap: wrap;
@@ -153,19 +153,24 @@ body {
 }
 
 .stats {
-  flex: 1;
-  display: grid;
-  grid-template-columns: 1fr;
+  /* flex: 1; */
+  /* display: grid; */
+  /* grid-template-columns: 1fr; */
   gap: 1rem;
-  min-width: 200px;
+  /* min-width: 200px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.stats div {
+.stats_div {
   background: #222;
   padding: 1rem;
   text-align: center;
   border-radius: 8px;
   font-size: 1.2rem;
+  width: 10vw;
 }
 
 .services {
@@ -339,6 +344,6 @@ footer li {
   transform: translateX(-50%);
   /* width: 150%;  */
   z-index: 0;
-  width: 70vw;
+  /* width: 70vw; */
   pointer-events: none; /* allows clicks to pass through */
 }
